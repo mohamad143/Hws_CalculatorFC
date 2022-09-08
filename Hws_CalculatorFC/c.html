@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="c.js"></script>
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h2>Temperature Converter</h2>
+        <div>
+            <p id="title">Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+            <p class="FtoC">
+                <label>Fahrenheit</label>
+                <input id="inputFahrenheit" type="number" oninput="temperatureConverterFtoC(this.value)"
+                    onchange="temperatureConverterFtoC(this.value)">
+            </p>
+            <p>Celcius: <span id="outputCelcius"></span></p>
+        </div>
+        <div>
+            <p id="title">Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+            <p class="CtoF">
+                <label>Celsius</label>
+                <input id="inputCelsius" type="number" oninput="temperatureConverterCtoF(this.value)"
+                    onchange="temperatureConverterCtoF(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

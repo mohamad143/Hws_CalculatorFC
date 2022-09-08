@@ -1,0 +1,26 @@
+body{
+    background-size: auto;
+  
+    background-image:url("https://i.ytimg.com/vi/QFTDofic0Ek/mqdefault.jpg") ;
+}
+.calculator {
+    max-width: 500px;
+    margin: auto;
+   padding: 50px;
+    background-color:navajowhite;
+    
+   
+   
+}
+
+h2 {
+    
+    line-height: normal;
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+#title{
+    
+    color: rgb(0, 38, 255);
+    
+}
